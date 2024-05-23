@@ -10,7 +10,7 @@
     <title>Functions Additional Task</title>
 </head>
 <body>
-    <div id="main-container">
+    <form id="main-container">
         <div class="flex-row">
             <label for="ice-creams">Number of ice creams:</label>
             <input type="text" id="ice-creams" placeholder="no of ice creams">
@@ -23,8 +23,11 @@
             <label for="total">Total: </label>
             <input type="text" id="total" placeholder="total price" readonly>
         </div>
-        <input type="button" output value="Calculate">
-    </div>
+        <div class="btn-box">
+            <input type="button" calcBtn value="Calculate">
+            <input type="reset">
+        </div>
+    </form>
     <script src="script/scripts.js"></script>
 </body>
 </html>
